@@ -96,8 +96,8 @@ body {
 
 .swiper-button-prev {
   left: calc(-100vw / 24);
-  width: 40px;
-  height: 40px;
+  width: 70px!important;
+  height: 70px!important;
   background-color: #fff;
   box-shadow: 0 0 15px rgba(56, 119, 238, 0.1);
   border-radius: 50%;
@@ -105,8 +105,8 @@ body {
 
 .swiper-button-next {
   right: calc(-100vw / 24);
-  width: 40px;
-  height: 40px;
+  width: 70px!important;
+  height: 70px!important;
   background-color: #fff;
   box-shadow: 0 0 15px rgba(56, 119, 238, 0.1);
   border-radius: 50%;
@@ -114,15 +114,15 @@ body {
 
 .swiper-button-next::after {
   position: absolute;
-  top: -11px;
-  left: 17px;
+  top: 15px;
+  left: 27px;
   content: url(../assets/images/button-next.svg);
 }
 
 .swiper-button-prev::after {
   position: absolute;
-  top: -11px;
-  left: 15px;
+  top: 15px;
+  left: 20px;
   content: url(../assets/images/button-prev.svg);
 }
 
